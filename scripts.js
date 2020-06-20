@@ -1,6 +1,6 @@
 function showImages(responseJson) {
     console.log(responseJson.message);
-    $(".imageBox").append()
+    $(".imageBox").append(`<li><img src="${response.message}"></li>`)
 }
 
 function getDogPhoto() {
